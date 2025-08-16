@@ -4,34 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leslie Huh</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="static/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="static/script.js"></script>
 
 </head>
 <body>
 
   <header>
-    <h1>Leslie Huh</h1>
+    <div class="web-title">
+    <h1>Leslie Huh</h1></div>
+    <div class="nav-bar">
+      <nav>
+        <a href="">⌂</a>
+        <a href="./views/resume.html">Resume</a>
+        <a href="./views/contact.html">Contact</a>
+
+      </nav>
   </header>
-  <nav>
-    <a href=".">⌂</a>
-    <a href="./views/resume.html">Resume</a>
-    <a href="./views/contact.html">Contact</a>
-    <a href="./views/projects.html">Projects</a>
-    <a href="./views/hobbies.html">Hobbies</a>
-  </nav>
+
 
   <main>
-    <p>Sorry for the inconvenience.</p>
-    <p>In the meantime, visit my <a href="https://www.linkedin.com/in/leslie-huh/">LinkedIn</a> or <a href="https://github.com/lesliehuh">GitHub!</a></p>
+    <div class="home-container">
+      <div class="image">
+        <img src="static/headshot.jpg" alt="Leslie Huh Headshot" id="image">
+      </div>
+      <div class="text-section">
+        <h2>Hi! My name's Leslie Huh!</h2>
+        <p>I’m currently an undergraduate student at Carnegie  Mellon University.</p>
+        <p id="more-info" style="display:none">I’m majoring in Information Systems with a concentration in data analytics.<br><br>
+          I'm from Southern California, and some of my hobbies include playing games and reading!
+        </p>
+        <button type="button" id="more">Tell me more!</button>
+      </div></div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Leslie Huh</p>
+    <div class="footer-content">
+      <div class="copy">
+      <p>&copy; 2025 Leslie Huh</p></div>
+      <div class="links"><nav>
+        <a href="https://www.linkedin.com/in/leslie-huh/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://www.github.com/lesliehuh" target="_blank" rel="noopener">GitHub</a>
+      </nav></div></div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
