@@ -104,7 +104,24 @@ footer {
 .footer-content .links nav {
     white-space: nowrap;
 }
-
+/* Home -> Projects */
+.project-container {
+    display:flex;
+    justify-content:center;
+    padding-left:5%;
+    padding-right:5%;
+}
+.112Type-Container {
+    display:flex;
+    flex-direction:row;
+}
+.112Type-Container .112Type-Text {
+    display:flex;
+    text-align:center
+}
+.112Type-Container .112Type-vid {
+    justify-content:center;
+}
 /* Contact Page */
 .email-form, .contact-info {
     display: flex;
@@ -176,3 +193,4 @@ footer {
     height: 100%;
     border: none;
 }
+
