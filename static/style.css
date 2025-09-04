@@ -112,11 +112,9 @@ footer {
     padding-left:5%;
     padding-right:5%;
 }
-.Type-Container {
-    display:flex;
-    flex-direction:row;
-}
+
 .Type-Container .Type-Text {
+    flex-direction:row;
     display:flex;
     text-align:center
 }
