@@ -111,15 +111,15 @@ footer {
     padding-left:5%;
     padding-right:5%;
 }
-.112Type-Container {
+.Type-Container {
     display:flex;
     flex-direction:row;
 }
-.112Type-Container .112Type-Text {
+.Type-Container .Type-Text {
     display:flex;
     text-align:center
 }
-.112Type-Container .112Type-vid {
+.Type-Container .Type-vid {
     justify-content:center;
 }
 /* Contact Page */
