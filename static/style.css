@@ -105,7 +105,8 @@ footer {
     white-space: nowrap;
 }
 /* Home -> Projects */
-.project-container {
+.project-container .Type-Container, 
+.NodeBB-container {
     display:flex;
     flex-direction: column;
     justify-content:center;
