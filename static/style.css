@@ -105,8 +105,7 @@ footer {
     white-space: nowrap;
 }
 /* Home -> Projects */
-.project-container .Type-Container, 
-.NodeBB-container {
+.project-container {
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -114,13 +113,17 @@ footer {
     padding-right:5%;
 }
 
-.Type-Container .Type-Text {
+.Type-Container {
     flex-direction:row;
     display:flex;
-    text-align:center
+    padding:0.5em;
+    padding-top:1.5em;
 }
 .Type-Container .Type-vid {
+    flex-direction:row;
+    display:flex;
     justify-content:center;
+    padding-left:1em;
 }
 /* Contact Page */
 .email-form, .contact-info {
@@ -186,6 +189,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom:100px;
 }
 
 .resume .pdf {
